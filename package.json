@@ -1,7 +1,7 @@
 {
   "name": "poc-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express server and React client setup template for quick PoC development",
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=production node lib/index.js",
@@ -9,8 +9,12 @@
     "build": "webpack --mode production",
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Mattias Rost",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rrostt/poc-template"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",

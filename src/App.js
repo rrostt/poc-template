@@ -8,12 +8,14 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: rgb(247,247,247);
+    background-color: #f80;
   }
 `
 
 const AppStyled = styled.div`
+  color: #08f;
   font-size: 36px;
+  font-weight: bold;
 `
 
 class App extends Component {
